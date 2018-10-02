@@ -42,7 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Additions\IComparableSolver.cs" />
+    <Compile Include="Additions\CoreSolver.cs" />
+    <Compile Include="Additions\MapAndroidSolver.cs" />
+    <Compile Include="Additions\MapSolver.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
