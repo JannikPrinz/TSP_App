@@ -58,7 +58,6 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedJar Include="Jars\mapsforge-core-0.10.0.jar" />
-    <InputJar Include="Jars\sqlite-android-0.10.0.jar" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedJar Include="Jars\mapsforge-map-0.10.0.jar" />
