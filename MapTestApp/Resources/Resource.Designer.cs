@@ -3157,6 +3157,39 @@ namespace MapTestApp
 		public partial class String
 		{
 			
+			// aapt resource value: 0x7f09002a
+			public const int MAPS = 2131296298;
+			
+			// aapt resource value: 0x7f09002b
+			public const int SETTING_DEBUG_TIMING = 2131296299;
+			
+			// aapt resource value: 0x7f09002c
+			public const int SETTING_LANGUAGE_SHOWLOCAL = 2131296300;
+			
+			// aapt resource value: 0x7f09002d
+			public const int SETTING_PREFERRED_LANGUAGE = 2131296301;
+			
+			// aapt resource value: 0x7f09002e
+			public const int SETTING_RENDERING_THREADS = 2131296302;
+			
+			// aapt resource value: 0x7f09002f
+			public const int SETTING_SCALE = 2131296303;
+			
+			// aapt resource value: 0x7f090030
+			public const int SETTING_TEXTWIDTH = 2131296304;
+			
+			// aapt resource value: 0x7f090031
+			public const int SETTING_TILECACHE_PERSISTENCE = 2131296305;
+			
+			// aapt resource value: 0x7f090032
+			public const int SETTING_WAYFILTERING = 2131296306;
+			
+			// aapt resource value: 0x7f090033
+			public const int SETTING_WAYFILTERING_DISTANCE = 2131296307;
+			
+			// aapt resource value: 0x7f090029
+			public const int TAG = 2131296297;
+			
 			// aapt resource value: 0x7f090000
 			public const int abc_action_bar_home_description = 2131296256;
 			

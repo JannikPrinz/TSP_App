@@ -1,4 +1,15 @@
 <resources>
-    <string name="app_name">MapTestApp</string>
-    <string name="action_settings">Settings</string>
+  <string name="app_name">MapTestApp</string>
+  <string name="action_settings">Settings</string>
+  <string name="TAG">MapTestApp</string>
+  <string name="MAPS">maps</string>
+  <string name="SETTING_DEBUG_TIMING">debug_timing</string>
+  <string name="SETTING_LANGUAGE_SHOWLOCAL">language_showlocal</string>
+  <string name="SETTING_PREFERRED_LANGUAGE">language_selection</string>
+  <string name="SETTING_RENDERING_THREADS">rendering_threads</string>
+  <string name="SETTING_SCALE">scale</string>
+  <string name="SETTING_TEXTWIDTH">textwidth</string>
+  <string name="SETTING_TILECACHE_PERSISTENCE">tilecache_persistence</string>
+  <string name="SETTING_WAYFILTERING">wayfiltering</string>
+  <string name="SETTING_WAYFILTERING_DISTANCE ">wayfiltering_distance</string>
 </resources>

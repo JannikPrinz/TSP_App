@@ -59,6 +59,8 @@
     <Reference Include="Mono.Android" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseActivity.cs" />
+    <Compile Include="constants.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -112,6 +114,10 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\AndroidSVGBinding\AndroidSVGBinding.csproj">
+      <Project>{2e391d00-756e-4f06-8e27-3d2747f0d349}</Project>
+      <Name>AndroidSVGBinding</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MapsForgeBinding\MapsForgeBinding.csproj">
       <Project>{b4f32a7d-d6f0-4943-afa0-a2c22c1bd86f}</Project>
       <Name>MapsForgeBinding</Name>
