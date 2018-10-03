@@ -51,34 +51,17 @@ namespace MapTestApp
             //}
             try
             {
-                //System.Console.WriteLine("1");
                 var destinationPath = System.IO.Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.LocalApplicationData), "berlin.map");
 
-                System.Console.WriteLine("2");
                 using (System.IO.Stream source = System.Reflection.Assembly.GetExecutingAssembly().GetManifestResourceStream("MapTestApp.Resources.berlin.map"))
                 {
-                    System.Console.WriteLine("3");
                     using (var destination = System.IO.File.Create(destinationPath))
                     {
-                        System.Console.WriteLine("4");
                         source.CopyTo(destination);
                     }
                 }
-                //System.Console.WriteLine("5");
-
-                //var assembly = IntrospectionExtensions.GetTypeInfo(typeof(MainActivity)).Assembly;
-                //Stream stream = assembly.GetManifestResourceStream("WorkingWithFiles.PCLTextResource.txt");
-                //string text = "";
-                //using (var reader = new System.IO.StreamReader(stream))
-                //{
-                //    reader.
-                //    text = reader.ReadToEnd();
-                //}
 
                 Java.IO.File mapFile = new Java.IO.File(System.Environment.GetFolderPath(System.Environment.SpecialFolder.LocalApplicationData), "berlin.map");
-                //File mapFile = new File("", "berlin.map");
-
-                System.Console.WriteLine("******************* File Found!");
 
                 MapDataStore mapDataStore = new MapFile(mapFile);
                 TileRendererLayer tileRendererLayer = new TileRendererLayer(tileCache, mapDataStore, mapView.Model.MapViewPosition, AndroidGraphicFactory.Instance);
@@ -87,10 +70,10 @@ namespace MapTestApp
                 mapView.LayerManager.Layers.Add(tileRendererLayer);
             } catch (Exception e)
             {
-                System.Console.WriteLine("###################" + e.StackTrace);
+                System.Console.WriteLine(e.StackTrace);
             }
 
-    mapView.SetCenter(new Org.Mapsforge.Core.Model.LatLong(52.517037, 13.38886));
+            mapView.SetCenter(new Org.Mapsforge.Core.Model.LatLong(52.517037, 13.38886));
             mapView.SetZoomLevel(12);
         }
 

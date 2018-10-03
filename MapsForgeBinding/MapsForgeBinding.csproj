@@ -77,6 +77,12 @@
   <ItemGroup>
     <EmbeddedJar Include="Jars\mapsforge-themes-0.10.0.jar" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AndroidSVGBinding\AndroidSVGBinding.csproj">
+      <Project>{2e391d00-756e-4f06-8e27-3d2747f0d349}</Project>
+      <Name>AndroidSVGBinding</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
